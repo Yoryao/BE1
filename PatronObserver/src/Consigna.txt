@@ -1,0 +1,3 @@
+
+
+Pensemos a los diputados, ministros y presidentes como usuarios del sistema. Queremos que al momento en el que cualquiera de los tres tipos de usuario intente leer un documento (tenga o no acceso), lo envíe a otro tipo de usuario y así sucesivamente hasta que a todos los usuarios les llegue el documento. Los tres tipos de usuario deberán tener un método para leer el documento y un atributo que indicara que tipo de acceso tiene (1, 2 o 3). Este método recibirá un documento y según el tipo de jerarca que sea, evaluará si lo puede leer, en caso de que pueda, lo hará y además lo enviará a otro jerarca. En el caso de que no tenga acceso para leerlo, también lo enviará a otro tipo de jerarca.
